@@ -20,10 +20,10 @@ type State int
 
 const (
 	Pending State = iota
-	Scheduled
-	Completed
-	Running
-	Failed
+	//Scheduled
+	//Completed
+	//Running
+	//Failed
 )
 
 type Task struct {
